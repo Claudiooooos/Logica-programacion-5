@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Adivina el Número Secreto</h2>
+        <p>Intenta adivinar el número secreto (entre 1 y 100):</p>
+
+        <input type="text" id="numeroUsuario" class="form-control">
+        <button onclick="adivinaElNumero()" class="btn btn-primary">Intentar</button>
+
+
+
+        <p id="mensaje"></p>
+        <p id="intentos"></p>
+        <p id="numerosIngresados"></p>
+        <p id="numerosIncorrectos"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

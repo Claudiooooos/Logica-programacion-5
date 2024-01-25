@@ -1,0 +1,71 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #28176b;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    /* Aumenté el ancho del contenedor */
+    padding: 100px;
+    /* Aumenté el espacio de relleno */
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h2 {
+    color: #4585e6;
+    text-shadow: 3px 3px 3px #333;
+    letter-spacing: 4px;
+    font-size: 5em;
+    /* Aumenté el tamaño de la fuente */
+}
+
+p {
+    letter-spacing: 4px;
+    font-size: 2em;
+    /* Aumenté el tamaño de la fuente */
+}
+
+input.form-control {
+    margin-top: 40px;
+    /* Aumenté el espacio superior */
+    margin-bottom: 40px;
+    /* Aumenté el espacio inferior */
+    font-size: 1.5em;
+    /* Aumenté el tamaño de la fuente */
+}
+
+button.btn-primary {
+    margin-top: 60px;
+    /* Aumenté el espacio superior */
+    margin-bottom: 60px;
+    /* Aumenté el espacio inferior */
+    font-size: 2.0em;
+    /* Aumenté el tamaño de la fuente */
+    color: #121213;
+    background-color: #069af63c;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#mensaje {
+    margin-bottom: 240px;
+    /* Aumenté el espacio inferior */
+    font-size: 1.9em;
+    /* Aumenté el tamaño de la fuente */
+}
+
+#intentos {
+    font-size: 2em;
+    /* Dejé el tamaño de la fuente igual */
+    color: #6c757d;
+}
